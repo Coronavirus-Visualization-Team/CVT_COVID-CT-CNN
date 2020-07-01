@@ -10,4 +10,4 @@ Training: 425 total, 191 COVID, 234 NonCOVID
 
 Validation: 118 total, 60 COVID, 58 NonCOVID
 
-Testing: 203 total, 98 COVID, 25 NonCOVID
+Testing: 203 total, 98 COVID, 105 NonCOVID

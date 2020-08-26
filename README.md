@@ -1,9 +1,14 @@
-# CVT_COVID-CT-CNN collaboration space/data storage
+# CVT_COVID-CT-CNN collaboration space/data storage/presentation of findings
 Please note:
-1. master-data contains folders of the currently compiled COVID and NonCOVID CT images
-2. split-data contains 70/15/15 random permutation train/val/test split of the currently compiled data
-3. some version (potentially outdated) of Jupyter notebook stored
+1. master-data contains folders of all compiled COVID and NonCOVID CT images (excluding hold-out dataset)
+2. split-data contains 70/15/15 random permutation train/val/test split of images located in master-data
+3. "DenseNet121_Training_and_Evaluation.ipynb" contains full training and evaluation for best performing TL architecture
 
-7/26/20
-COVID: 1179 total, train: 825, val: 177, test: 177
-NonCOVID: 653 total, train: 457, val: 98, test: 98
+8/25/20
+master-data/split-data
+COVID: 2431 total, train: 1701, val: 365, test: 365
+NonCOVID: 2166 total, train: 1516, val: 325, test: 325
+
+HO-data (used for secondary testing purposes)
+COVID: 211
+NonCOVID: 150
